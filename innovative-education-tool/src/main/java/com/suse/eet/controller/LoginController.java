@@ -19,7 +19,7 @@ public class LoginController {
 
 	@GetMapping("/all")
 	public String hello() {
-		return "Hello";
+		return "Hello Sujith first commit";
 	}
 
 	@PreAuthorize("hasAnyRole('ADMIN')")
